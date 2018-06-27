@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name = "author" content = "Farid Gulmammadov">
+    <meta name = "description" content ="site description">
+    <meta name = "keywords" content = "js, css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type = "text/css" href="css/style.css">
+    <link rel="stylesheet" type = "text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link href = "bootstrap/css/bootstrap.min.css" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Home</title>
+</head>
+<body>
+    <section class = "container-fluid">
+        <!-- <div class="row">
+            <div class = "col-md-2">
+            <img src = "images/logo.png">
+            </div>
+            <div class= "col-md-7">second</div>
+            <div class= "col-md-3">
+                <button id="buy"><p>Buy now</p></button>
+                <i class="fa fa-times-circle"></i>
+            </div>
+        </div> -->
+        <div class="row">
+            <div class = "col-lg-11">
+            <div id = "pro" class= "sidebar">
+             <i class="fa fa-bolt"></i>
+             <p style = "color: white"><span style = "font-weight: bold">Pro</span><span id="ui">UI</span></p>
+            </div>
+            <div id="mobmenu"><i class="fa fa-bars"></i></div>
+          <div id="setting"><i class="fa fa-wrench"></i></div>
+          <input id="search" type ="text" placeholder="Search..">
+            </div>
+            <div class= "col-lg-1">
+                <div id="share">
+            <i class="fas fa-share-alt"></i>
+             <div id="count"><p>4</p></div>
+                </div> 
+                <div id="smallphoto">
+                    <img src = "images/ismall.png">
+                    <i class="fa fa-angle-down"></i>
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-left">
+                          <a id="account" class="dropdown-item" href="#">Account</a>
+                          <a class="dropdown-item" href="#">Updates <span> 10 </span></a>
+                          <a class="dropdown-item" href="#">Messages <span>5</span></a>
+                          <a class="dropdown-item" href="#">Subscriptions <span>3</span></a>
+                          <a class="dropdown-item" href="#">FAQ <span>11</span></a>
+                        </div>
+                      </div>
+                 </div>  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                    <div id="profile" class = "sidebar">
+                            <img src = "images/photo.png">                        
+                 <p>john Doe</p>
+                 <div id="ipro">
+                        <ul>
+                                <li><i id="user" class="fas fa-user"></i></li> 
+                                <li><i id="env" class="fas fa-envelope"></i></li> 
+                                <li><i id="set" class="fas fa-cog"></i></li>
+                                <li><i id="out" class="fas fa-sign-out-alt"></i></li>
+                       </ul>
+                 </div>
+                 <div class = "clear"></div> 
+                 <div id="tooltip">
+                         <p id="pfl">Profile</p>
+                         <p id="msg">Messages</p>
+                         <p id="stg">Settings</p>
+                         <p id="lgt">Logout</p>
+                 </div>
+                </div>
+                <div id="circles">
+                    <div id="firstline">
+                    <div id="c01" class="circle" data-toggle="tooltip" title="Night"></div>
+                    <div id="c02" class="circle" data-toggle="tooltip" title="Amethyst"></div>
+                    <div id="c03" class="circle" data-toggle="tooltip" title="Modern"></div>
+                    <div id="c04" class="circle" data-toggle="tooltip" title="Autumn"></div>
+                    <div id="c05" class="circle" data-toggle="tooltip" title="Flatie"></div>
+                    <div id="c06" class="circle" data-toggle="tooltip" title="Spring"></div>
+                    <div id="c07" class="circle" data-toggle="tooltip" title="Fancy"></div>
+                </div>
+                <div id="secondline">
+                        <div id="c08" class="circle" data-toggle="tooltip" title="Fire"></div>
+                        <div id="c09" class="circle" data-toggle="tooltip" title="Coral"></div>
+                        <div id="c10" class="circle" data-toggle="tooltip" title="Lake"></div>
+                        <div id="c11" class="circle" data-toggle="tooltip" title="Forest"></div>
+                        <div id="c12" class="circle" data-toggle="tooltip" title="Waterlilly"></div>
+                        <div id="c13" class="circle" data-toggle="tooltip" title="Emerald"></div>
+                        <div id="c14" class="circle" data-toggle="tooltip" title="Blackberry"></div>                        
+                </div>
+                </div>
+                <div id="dashbrd" class= "sidebar">
+                    <div id="dash01">
+                        <i class="far fa-clock"></i>
+                   <p class= "sidebtn">Dashboard</p>
+                </div>
+                <div id="dash02">
+                   <i class="fas fa-leaf"></i>
+                   <p class= "sidebtn">Dashboard 2</p>
+                </div>
+                </div>
+                <div id="welcome">
+                        <img src="images/headpic.jpg">
+                    </div>
+                </div>
+                <div class= "col-lg-8">
+                </div>
+            </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src = "js/script.js"></script>
+    <script>
+        $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+    </script>
+</body>
+</html>
